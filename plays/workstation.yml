@@ -1,9 +1,10 @@
 ---
-hosts: localhost
-vars_prompt:
-  - name: ansible_user
-    prompt: What is the username
-    private: no
-roles:
-  - { role: ned300889.bootstrap }
-  - { role: ned300889.utilities }
+- name: create workstation
+  hosts: localhost
+  vars_prompt:
+    - name: ansible_user
+      prompt: What is the username
+      private: no
+  roles:
+    - { role: ned300889.bootstrap }
+    - { role: ned300889.utilities }
