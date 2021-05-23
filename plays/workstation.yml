@@ -8,3 +8,4 @@
   roles:
     - { role: ned300889.bootstrap, become: yes }
     - { role: ned300889.utilities, become: yes }
+    - { role: ned300889.cri-o, become: yes}
