@@ -9,3 +9,4 @@
     - { role: ned300889.bootstrap, become: yes }
     - { role: ned300889.utilities, become: yes }
     - { role: ned300889.cri_o, become: yes}
+    - { role: ned300889.minikube, become: yes}

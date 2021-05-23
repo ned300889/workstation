@@ -3,3 +3,4 @@ roles:
   - name: ned300889.bootstrap
   - name: ned300889.utilities
   - name: ned300889.cri_o
+  - name: ned300889.minikube
